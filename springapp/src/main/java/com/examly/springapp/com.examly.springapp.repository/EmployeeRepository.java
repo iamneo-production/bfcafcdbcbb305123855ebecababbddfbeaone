@@ -1,4 +1,5 @@
-package 
+package  com.examly.springapp.Repository;
+
 @Repository
 public class EmployeeRepository extends JpaRepository<Employee,Integer>{
    
