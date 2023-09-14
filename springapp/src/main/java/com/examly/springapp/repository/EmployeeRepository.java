@@ -1,3 +1,5 @@
+
+@Repository
 public class EmployeeRepository {
     
 }

@@ -1,6 +1,7 @@
-
+@Entit
 class Employee
 {
+    @Id
     private int employeeId;
     private String employeeName;
     private String email;
