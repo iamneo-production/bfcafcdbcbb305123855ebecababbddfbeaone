@@ -68,10 +68,15 @@ class Employee
         this.salary = salary;
         this.department = department;
     }
-    public Employee() {super();
-
-        
-}
+    public Employee() {
+        super();
+       }
+    @Override
+    public String toString() {
+        return "Employee [address=" + address + ", department=" + department + ", email=" + email + ", employeeId="
+                + employeeId + ", employeeName=" + employeeName + ", mobile=" + mobile + ", roll=" + roll + ", salary="
+                + salary + "]";
+    }
 
 
 
